@@ -33,7 +33,7 @@ public class StudentsNotes {
         System.out.println("La note maximal est : " + maxRating);
 
         for (int i = 0; i < notes.length; i++) {
-            if (notes[i] < maxRating) {
+            if (notes[i] < minRating) {
                 minRating = notes[i];
             }
         }
