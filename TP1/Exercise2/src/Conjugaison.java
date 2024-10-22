@@ -6,7 +6,10 @@ public class Conjugaison {
         this.verbe = verbe;
     }
     public void conjuger(){
-        if(verbe.endsWith("er")) {
+        if(verbe.endsWith("aller")) {
+            System.out.println("Le verbe Aller n'est pas du premier groupe!!!");
+        }
+        else if(verbe.endsWith("er")) {
             String radical = verbe.substring(0, verbe.length() - 2);
             if(verbe.endsWith("ger")){
                 for (int i=0; i< pronons.length; i++){
@@ -57,8 +60,6 @@ public class Conjugaison {
                     System.out.println(pronons[i] + " " + radical + terminaisons[i]);
                 }
             }
-        }else if(verbe.endsWith("aller")) {
-            System.out.println("Le verbe Aller n'est pas du premier groupe!!!");
         }else{
             System.out.println("Ce verbe n'est pas du premier groupe!!!");
         }
