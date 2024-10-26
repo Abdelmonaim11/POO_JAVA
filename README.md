@@ -46,3 +46,7 @@ This project centers on implementing arrays and strings in Java. It includes mul
 ## About The Project
 
 ### Exercise 1
+In this exercise, you’ll develop a Java program that lets users enter student grades, sort them, and generate useful statistics. These include calculating the average grade, identifying the highest and lowest grades, and counting how many students received a particular grade.
+#### Arrays,sort()
+The program starts by asking the user to enter the number of students along with each of their grades.
+Then, it utilizes the Arrays.sort() method to arrange the grades in ascending order, displaying the sorted list.
