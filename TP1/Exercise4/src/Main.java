@@ -7,6 +7,6 @@ public class Main {
         System.out.print("Saisie une chaine : ");
         String chaine = scanner.nextLine();
         OccurrenceCounter occurrenceCounter = new OccurrenceCounter(chaine);
-        occurrenceCounter.operation();
+        occurrenceCounter.findOccurence();
     }
 }

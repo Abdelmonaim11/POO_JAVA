@@ -6,7 +6,7 @@ public class OccurrenceCounter {
         this.ch = ch;
     }
 
-    public void operation() {
+    public void findOccurence() {
         ch = ch.toUpperCase();
 
         for (int i = 0; i < ch.length(); i++) {
