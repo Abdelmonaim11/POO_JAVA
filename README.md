@@ -81,7 +81,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
   ![image](https://github.com/user-attachments/assets/d6a57df9-c46c-496e-a5b8-58eeba9c84fb)
   But if we take the verb **aller**, even though it ends with **er**, it is not a verb of **1er group**.
   ![image](https://github.com/user-attachments/assets/a38e415c-61ca-4d6d-a768-1c1db5140d4f)
-   #### 3 - Exercise 3:
+  #### 3 - Exercise 3:
    - Program startup: The program displays the menu with options 1 to 4 and 0 to exit.
    ![image](https://github.com/user-attachments/assets/6a6dfa3e-7ee9-454f-8502-308cab6696ac)
    - Option 1 - Enter a string:
@@ -94,12 +94,10 @@ This image illustrates a program displaying the results of 10 sorted students. I
    ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
    Option 0 - Reset the string and restart:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
-   #### 4 - Exercise 4:
-    ![image](https://github.com/user-attachments/assets/db9893d4-e942-44d2-80ae-8c198aa53a63)
+  #### 4 - Exercise 4:
+   ![image](https://github.com/user-attachments/assets/2ccd7246-5070-4cd5-81ac-6d5ec8145e51)
 
-
-   
-      We take the same previous example with the string: « Java est un langage de programmation orienté objet, conçu pour être portable ».
+  
     
     
 
