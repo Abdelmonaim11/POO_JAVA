@@ -31,3 +31,5 @@
 
 
 ## Overview
+
+This project centers on implementing arrays and strings in Java. It includes multiple exercises that showcase methods for handling student grades, conjugating French verbs, manipulating strings, and counting letter occurrences. The exercises aim to build a strong foundation in fundamental programming concepts. Additionally, they encourage problem-solving skills by tackling common tasks through array and string manipulation.
