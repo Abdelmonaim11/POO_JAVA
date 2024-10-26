@@ -47,6 +47,18 @@ This project centers on implementing arrays and strings in Java. It includes mul
 
 ### Exercise 1
 In this exercise, you’ll develop a Java program that lets users enter student grades, sort them, and generate useful statistics. These include calculating the average grade, identifying the highest and lowest grades, and counting how many students received a particular grade.
-#### Arrays,sort()
+##### Arrays.sort():
 The program starts by asking the user to enter the number of students along with each of their grades.
 Then, it utilizes the Arrays.sort() method to arrange the grades in ascending order, displaying the sorted list.
+### Exercise 2
+The Conjugaison class in this Java program is designed to conjugate first-group French verbs ending in "-er" in the present tense. It begins by taking a verb as input and includes arrays for pronouns (such as "Je" and "Tu") and verb endings (like "e" and "es"). The conjuger method checks for spelling changes required for certain verbs, including those ending in "-ger," "-cer," "-yer," "-eler," and "-eter." For example, "-ger" verbs add an "e" before "ons" for the "Nous" form, while "-cer" verbs change "c" to "ç" for the same pronoun. Verbs ending in "-yer" modify "y" to "i" for some pronouns, and those ending in "-eler" and "-eter" may double letters in the stem for most pronouns. If a verb doesn’t belong to the first group, the program notifies the user, ensuring accurate conjugations based on French language rules.
+### Exercise 3
+The Menu class is a simple Java program that provides a text-based menu system for working with a string (chaine). Depending on the user’s choice, the program allows several options:
+
+- Add a String: Prompts the user to enter a string, which it appends to chaine.
+- Display the String: Shows the current content of chaine, or notifies if it's empty.
+- Reverse the String: Reverses and displays chaine, or alerts if it's empty.
+- Count Words: Counts and displays the number of words in chaine.
+- Clear String (Choice 0): Resets chaine to empty.
+### Exercise 4
+After each action, the program waits for user input before returning to the main menu, facilitating an interactive experience with string manipulation options.
