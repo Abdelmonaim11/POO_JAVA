@@ -70,5 +70,5 @@ Once the counting is complete, the program displays the occurrence count for eac
 ## Implementation
   ### ScreenShots
   ##### 1 - Exercise 1:
-  ![Alt text]("E:\enset-logo (1)")
+  ![Alt text](./enset-logo%20(1).png)
 
