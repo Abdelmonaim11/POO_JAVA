@@ -85,12 +85,14 @@ This image illustrates a program displaying the results of 10 sorted students. I
    - Program startup: The program displays the menu with options 1 to 4 and 0 to exit.
    ![image](https://github.com/user-attachments/assets/6a6dfa3e-7ee9-454f-8502-308cab6696ac)
    - Option 1 - Enter a string:
-   ![image](https://github.com/user-attachments/assets/a4cd623d-d18f-4c2a-b4cd-2f2883316dc2)
+     "Java est un langage de programmation orienté objet, conçu pour être portable"
    - Option 2 - Display the string:
-   ![image](https://github.com/user-attachments/assets/6c16826c-a557-4dfb-b9b3-00fe08fe71ca)
+   ![image](https://github.com/user-attachments/assets/a4cd623d-d18f-4c2a-b4cd-2f2883316dc2)
    - Option 3 - Reverse the string:
-   ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
+   ![image](https://github.com/user-attachments/assets/6c16826c-a557-4dfb-b9b3-00fe08fe71ca)
    - Option 4 - Count the words:
+   ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
+   Option 0 - Reset the string:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
 
 
