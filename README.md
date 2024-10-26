@@ -60,5 +60,10 @@ The Menu class is a simple Java program that provides a text-based menu system f
 - Reverse the String: Reverses and displays chaine, or alerts if it's empty.
 - Count Words: Counts and displays the number of words in chaine.
 - Clear String (Choice 0): Resets chaine to empty.
-### Exercise 4
 After each action, the program waits for user input before returning to the main menu, facilitating an interactive experience with string manipulation options.
+### Exercise 4
+In this final exercise, the program determines how many times each letter appears in the input string. To ensure consistency, it converts the string to lowercase before counting.
+- Counting Letters
+The program loops through the string, incrementing a counter for each letter found.
+- Displaying Results
+Once the counting is complete, the program displays the occurrence count for each letter that appears in the string.
