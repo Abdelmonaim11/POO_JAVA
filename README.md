@@ -68,4 +68,7 @@ The program loops through the string, incrementing a counter for each letter fou
 - Displaying Results
 Once the counting is complete, the program displays the occurrence count for each letter that appears in the string.
 ## Implementation
-### ScreenShots
+  ### ScreenShots
+  ##### 1 - Exercise 1:
+  ![Alt text]("E:\enset-logo (1)")
+
