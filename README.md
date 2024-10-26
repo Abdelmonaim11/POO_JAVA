@@ -18,7 +18,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">implementation</a>
+      <a href="#getting-started">Implementation</a>
       <ul>
         <li><a href="#prerequisites">Screenshots</a></li>
       </ul>
@@ -67,3 +67,5 @@ In this final exercise, the program determines how many times each letter appear
 The program loops through the string, incrementing a counter for each letter found.
 - Displaying Results
 Once the counting is complete, the program displays the occurrence count for each letter that appears in the string.
+## Implementation
+### ScreenShots
