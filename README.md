@@ -71,4 +71,4 @@ Once the counting is complete, the program displays the occurrence count for eac
   ### ScreenShots
   ##### 1 - Exercise 1:
 ![image](https://github.com/user-attachments/assets/5b85c20a-6fc9-4133-9e56-9307f6498bda)  ![image](https://github.com/user-attachments/assets/8d5c2279-6ef7-47ae-9bcc-7af0a34b287d)
-
+This image illustrates a program displaying the results of 10 sorted students. It determines the average grade of the class, which is 13.685, as well as the maximum and minimum grades, respectively 19.0 and 9.0. Subsequently, the user entered the grade 17 to determine the number of students who received that grade. The program revealed that only 2 students achieved it.
