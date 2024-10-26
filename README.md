@@ -69,10 +69,10 @@ The program loops through the string, incrementing a counter for each letter fou
 Once the counting is complete, the program displays the occurrence count for each letter that appears in the string.
 ## Implementation
   ### ScreenShots
-  ##### 1 - Exercise 1:
+  #### 1 - Exercise 1:
 ![image](https://github.com/user-attachments/assets/5b85c20a-6fc9-4133-9e56-9307f6498bda)  ![image](https://github.com/user-attachments/assets/8d5c2279-6ef7-47ae-9bcc-7af0a34b287d)
 This image illustrates a program displaying the results of 10 sorted students. It determines the average grade of the class, which is 13.685, as well as the maximum and minimum grades, respectively 19.0 and 9.0. Subsequently, the user entered the grade 17 to determine the number of students who received that grade. The program revealed that only 2 students achieved it.
-  ##### 2 - Exercise 2:
+  #### 2 - Exercise 2:
   If we input the verb **manger**, we get:
   ![image](https://github.com/user-attachments/assets/755dae2d-906b-4594-b699-0a116e8e9ef6)
   If we input the verb **placer**, we get:
@@ -81,7 +81,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
   ![image](https://github.com/user-attachments/assets/d6a57df9-c46c-496e-a5b8-58eeba9c84fb)
   But if we take the verb **aller**, even though it ends with **er**, it is not a verb of **1er group**.
   ![image](https://github.com/user-attachments/assets/a38e415c-61ca-4d6d-a768-1c1db5140d4f)
-   ##### 3 - Exercise 3:
+   #### 3 - Exercise 3:
    - Program startup: The program displays the menu with options 1 to 4 and 0 to exit.
    ![image](https://github.com/user-attachments/assets/6a6dfa3e-7ee9-454f-8502-308cab6696ac)
    - Option 1 - Enter a string:
@@ -94,7 +94,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
    ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
    Option 0 - Reset the string and restart:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
-
+   #### 4 - Exercise 4:
 
 
 
