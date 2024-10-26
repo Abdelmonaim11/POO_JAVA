@@ -95,6 +95,8 @@ This image illustrates a program displaying the results of 10 sorted students. I
    Option 0 - Reset the string and restart:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
    #### 4 - Exercise 4:
+    We take the same previous example with the string: « Java est un langage de programmation orienté objet, conçu pour être portable ».
+    ![image](https://github.com/user-attachments/assets/dc5fd8ad-2af0-44ec-96bd-4baded800661)
 
 
 
