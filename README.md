@@ -3,6 +3,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#about-the-project">Overview</a>
+      <ul>
+        <li><a href="#built-with">Technologies Used</a></li>
+      </ul>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Exercise 1 </a></li>
