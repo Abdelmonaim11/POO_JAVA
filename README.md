@@ -95,7 +95,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
    Option 0 - Reset the string and restart:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
    #### 4 - Exercise 4:
-   ![image](https://github.com/user-attachments/assets/db9893d4-e942-44d2-80ae-8c198aa53a63)
+    ![image](https://github.com/user-attachments/assets/db9893d4-e942-44d2-80ae-8c198aa53a63)
 
 
    
