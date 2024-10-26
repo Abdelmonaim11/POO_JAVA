@@ -97,6 +97,10 @@ This image illustrates a program displaying the results of 10 sorted students. I
   #### 4 - Exercise 4:
    ![image](https://github.com/user-attachments/assets/2ccd7246-5070-4cd5-81ac-6d5ec8145e51)
 
+
+   We take the same previous example with the string: 
+   "Java est un langage de programmation orienté objet, conçu pour être portable"
+
   
     
     
