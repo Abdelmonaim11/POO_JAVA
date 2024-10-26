@@ -38,3 +38,7 @@ This project centers on implementing arrays and strings in Java. It includes mul
 ### Technologies Used
 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" width="30" height="30"/> &nbsp;&nbsp;**Angular**
+- <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/IntelliJ_IDEA_logo.svg" width="30" height="30"/> &nbsp;&nbsp;**IntelliJ IDEA Ultimate**
+- <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Java_logo_and_wordmark.svg" width="30" height="30"/> &nbsp;&nbsp;**Java**
+- <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30" height="30"/> &nbsp;&nbsp;**Git**
+- <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30"/> &nbsp;&nbsp;**GitHub**
