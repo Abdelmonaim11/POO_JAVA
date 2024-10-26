@@ -70,5 +70,5 @@ Once the counting is complete, the program displays the occurrence count for eac
 ## Implementation
   ### ScreenShots
   ##### 1 - Exercise 1:
-  <img src="E:\enset.png"/>
+  ![enset](https://github.com/user-attachments/assets/02e735dd-f755-4a56-aa0c-fc792969e67d)
 
