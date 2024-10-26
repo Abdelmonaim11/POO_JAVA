@@ -37,4 +37,4 @@ This project centers on implementing arrays and strings in Java. It includes mul
 
 ### Technologies Used
 
-- ![Angular](https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg) **Angular**
+- <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" width="16" height="16"/> **Angular**
