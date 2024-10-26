@@ -81,6 +81,21 @@ This image illustrates a program displaying the results of 10 sorted students. I
   ![image](https://github.com/user-attachments/assets/d6a57df9-c46c-496e-a5b8-58eeba9c84fb)
   But if we take the verb **aller**, even though it ends with **er**, it is not a verb of **1er group**.
   ![image](https://github.com/user-attachments/assets/a38e415c-61ca-4d6d-a768-1c1db5140d4f)
+   ##### 3 - Exercise 3:
+   - Program startup: The program displays the menu with options 1 to 4 and 0 to exit.
+   ![image](https://github.com/user-attachments/assets/6a6dfa3e-7ee9-454f-8502-308cab6696ac)
+   - Option 1 - Enter a string:
+   ![image](https://github.com/user-attachments/assets/a4cd623d-d18f-4c2a-b4cd-2f2883316dc2)
+   - Option 2 - Display the string:
+   ![image](https://github.com/user-attachments/assets/6c16826c-a557-4dfb-b9b3-00fe08fe71ca)
+   - Option 3 - Reverse the string:
+   ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
+   - Option 4 - Count the words:
+   ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
+
+
+
+
 
 
 
