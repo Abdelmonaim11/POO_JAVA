@@ -99,7 +99,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
 
 
    
-    We take the same previous example with the string: « Java est un langage de programmation orienté objet, conçu pour être portable ».
+      We take the same previous example with the string: « Java est un langage de programmation orienté objet, conçu pour être portable ».
     
     
 
