@@ -92,7 +92,7 @@ This image illustrates a program displaying the results of 10 sorted students. I
    ![image](https://github.com/user-attachments/assets/6c16826c-a557-4dfb-b9b3-00fe08fe71ca)
    - Option 4 - Count the words:
    ![image](https://github.com/user-attachments/assets/19ce9112-3dbe-4cc8-a66a-ee35a6318df9)
-   Option 0 - Reset the string:
+   Option 0 - Reset the string and restart:
    ![image](https://github.com/user-attachments/assets/96b198fc-43e7-474a-aa79-fe1e836e27b2)
 
 
