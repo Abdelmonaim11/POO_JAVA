@@ -43,6 +43,6 @@ This project centers on implementing arrays and strings in Java. It includes mul
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30" height="30"/> &nbsp;&nbsp;**Git**
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30"/> &nbsp;&nbsp;**GitHub**
 
-  ## About The Project
+## About The Project
 
-  ### Exercise 1
+### Exercise 1
