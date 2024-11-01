@@ -12,7 +12,9 @@ public class Ordinateur {
         this.qteStock = qteStock;
         this.catégorie = catégorie;
     }
+     public Ordinateur(){
 
+     }
     public void setNom(String nom) {
         this.nom = nom;
     }

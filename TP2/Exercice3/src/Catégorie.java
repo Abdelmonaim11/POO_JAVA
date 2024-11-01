@@ -4,6 +4,13 @@ import java.util.List;
 public class Catégorie {
     private String nom, description;
     private List<Ordinateur> ordinateurList;
+
+    public Catégorie(String nom, String description) {
+        this.nom = nom;
+        this.description = description;
+        ordinateurList = new ArrayList<>();
+    }
+
     public void ajouterOrdinateur(Ordinateur ordinateur){
          ordinateurList.forEach(ordinat -> {
              if(ordinat.equals(ordinateur))throw new RuntimeException("L'ordinateur deja exister!!!");
