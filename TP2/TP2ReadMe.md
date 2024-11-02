@@ -55,7 +55,6 @@ The final exercise focuses on interfaces and collection management by creating a
    ![image](https://github.com/user-attachments/assets/feda8021-811d-433e-807b-ee146bd8934e)
 
    
-This execution displays the information of a library member and a book with its author, using specific afficher() methods for each entity. The details include the member number, name, email, and age for the library member, as well as the ISBN, book title, and author information. The program runs without errors, effectively illustrating inheritance and composition in Java.
    #### 2 - Exercise 2:
    #### 3 - Exercise 3:  
    #### 4 - Exercise 4:
