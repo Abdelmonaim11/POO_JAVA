@@ -63,16 +63,20 @@ The final exercise focuses on interfaces and collection management by creating a
   
   ### 4 - Exercise 4:
   ![image](https://github.com/user-attachments/assets/cacd0487-fa16-4832-bac4-047c2107a18a)
-  Here, the option chosen by the user is selected, and initially, we will choose option 3 to enter products into the list.
+     Here, the option chosen by the user is selected, and initially, we will choose option 3 to enter products into the 
+     list.
   ![image](https://github.com/user-attachments/assets/2a1ab147-89a8-4e46-9788-67e14a15effc)
-  After entering some products, we can perform other tasks. If we choose option 1, we can display all the products in our list, as shown in the image below.
+    After entering some products, we can perform other tasks. If we choose option 1, we can display all the products in our 
+    list, as shown in the image below.
   ![image](https://github.com/user-attachments/assets/1e960174-df09-4aed-99cf-416278ead084)
-We can also search for a product using a keyword (either the product name or part of it). If we enter "DELL," we get all products with "DELL" in their names, as shown in the image below.
-![image](https://github.com/user-attachments/assets/b81ed730-264b-415b-b62e-0489b1f962bb)
-We can also retrieve a product by its ID. For example, if we enter ID=3, we retrieve the product with an ID equal to 3.
-![image](https://github.com/user-attachments/assets/8244c2c6-9a3f-4778-ad1a-4524e8ae18e9)
-We can also perform the task of deleting a product by entering its ID.
-![image](https://github.com/user-attachments/assets/3d96a9a0-11ae-47fc-b9be-da507dfcd506)
+     We can also search for a product using a keyword (either the product name or part of it). If we enter "DELL," we get 
+    all 
+    products with "DELL" in their names, as shown in the image below.
+  ![image](https://github.com/user-attachments/assets/b81ed730-264b-415b-b62e-0489b1f962bb)
+     We can also retrieve a product by its ID. For example, if we enter ID=3, we retrieve the product with an ID equal to 3.
+  ![image](https://github.com/user-attachments/assets/8244c2c6-9a3f-4778-ad1a-4524e8ae18e9)
+     We can also perform the task of deleting a product by entering its ID.
+  ![image](https://github.com/user-attachments/assets/3d96a9a0-11ae-47fc-b9be-da507dfcd506)
 
 
 
