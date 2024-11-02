@@ -55,5 +55,21 @@ The final exercise focuses on interfaces and collection management by creating a
    ![image](https://github.com/user-attachments/assets/6f146227-72d5-4062-9e6e-649f6f9f13c9)
 
    #### 2 - Exercise 2:
+   ![image](https://github.com/user-attachments/assets/c20088ba-c60c-4ad6-8080-8633e277196d)
+
    #### 3 - Exercise 3:  
+   ![image](https://github.com/user-attachments/assets/1fec812d-dc31-404b-b4e2-a8fa9735d873)
+
    #### 4 - Exercise 4:
+   ![image](https://github.com/user-attachments/assets/b1c7bd47-48d8-4ad5-a725-b3e8ab607b79)
+   ![image](https://github.com/user-attachments/assets/a9cbeeed-07b0-4d9c-8fc8-3ace045968c4)
+   ![image](https://github.com/user-attachments/assets/0cc8f7db-0388-4acc-8288-43df2dfccd69)
+   ![image](https://github.com/user-attachments/assets/bf38aeb3-ea4a-4f02-abfb-0cd4539899a3)
+   ![image](https://github.com/user-attachments/assets/4753d5dc-b208-4689-8e4e-cb1e6ea0f36e)
+   ![image](https://github.com/user-attachments/assets/e7acb1ff-7d73-426f-98ff-3e15e3eb5621)
+
+
+
+
+
+
