@@ -1,2 +1,2 @@
-# TP1 : Arrays and strings
-# TP2 - Concepts POO
+# [TP1 : Arrays and strings](https://github.com/Abdelmonaim11/POO_JAVA_TPS/tree/main/TP1)
+# [TP2 - Concepts POO](https://github.com/Abdelmonaim11/POO_JAVA_TPS/tree/main/TP2)
