@@ -52,7 +52,7 @@ The final exercise focuses on interfaces and collection management by creating a
 ## Implementation
   ### ScreenShots
   #### 1 - Exercise 1:
-  ![image](https://github.com/user-attachments/assets/464f9346-a92d-47c9-96e3-148bc860807d)
+  ![image](https://github.com/user-attachments/assets/3e5f7297-a3d6-4dd7-90da-692688a3cc3c)
 
   #### 2 - Exercise 2:
   #### 3 - Exercise 3:  
