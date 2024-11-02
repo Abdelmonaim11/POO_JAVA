@@ -40,3 +40,11 @@ This project focuses on key OOP principles in Java, including inheritance, polym
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30"/> &nbsp;&nbsp;**GitHub**
 
 ## About The Project
+### Exercise 1: Library Management System
+In this exercise, you’ll create a simple library system in Java. Start by defining a **Personne** class with basic attributes (name, email, etc.), then extend it to create two subclasses: **Adherent** for library members and **Auteur** for authors. Each subclass redefines a display method to show unique details. Additionally, a **Livre**  class stores the author and book details. Finally, a **main** method creates an Adherent and a Livre instance to demonstrate how inherited attributes and methods are used in practice.
+### Exercise 2: Employee Salary Management System
+Here, you will use an abstract class **Employe** with an abstract method for calculating salaries, which subclasses are required to implement. The **Ingénieur** and **Manager** classes inherit from Employe, each with a specific salary calculation method (15% and 20% increases, respectively). In the main method, instances of Ingénieur and Manager are created to showcase how polymorphism allows different implementations of the salary calculation for each type of employee.
+### Exercise 3: Computer Store Order Management
+This exercise introduces aggregation and composition by defining classes like **Ordinateur**, Catégorie, **Commande**, **LigneCommande**, and **Client**. You’ll implement methods to add and remove items, search for products by price, and manage customer orders with order lines. The main method sets up a small example order to test how different objects and relationships work together to represent a store’s inventory and order system.
+### Exercise 4: Product Collection Management with Interfaces
+The final exercise focuses on interfaces and collection management by creating a **Produit** class for products and an **IMetierProduit** interface to define methods for adding, retrieving, finding, and deleting products. The **MetierProduitImpl** class implements this interface, managing a list of products. In the main method, you’ll create a console menu allowing the user to interact with the list, demonstrating how interfaces help organize and manage collections in Java applications.
