@@ -38,3 +38,10 @@ The goal of these exercises is to learn how to create and handle custom exceptio
 
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30" height="30"/> &nbsp;&nbsp;**Git**
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30"/> &nbsp;&nbsp;**GitHub**
+## About The Project
+### Exercise 1: TropViteException
+Create a TropViteException that triggers when a vehicle's speed exceeds 90. The Vehicule class tests this by calling testVitesse(), which throws the exception if the speed is too high, illustrating how to manage limits with custom exceptions.
+### Exercise 2: RacineCarreeException
+Define a RacineCarreeException to handle cases where a square root calculation is attempted on a negative number. The Calculateur class includes a testRacineCarree() method that throws the exception for invalid inputs, showing error management in mathematical operations.
+### Exercise 3: RacineCarreeException
+Implement a NoteInvalideException to catch out-of-range grades in a grading system. The Evaluateur class has a verifierNote() method that throws the exception if a grade falls outside 0-20, demonstrating error handling for input validation.
