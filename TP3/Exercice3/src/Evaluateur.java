@@ -9,8 +9,8 @@ public class Evaluateur {
     public static void main(String[] args) {
         Evaluateur evaluateur = new Evaluateur();
         try {
-            verifierNote(-1);
-            verifierNote(16);
+            verifierNote(-7);
+            verifierNote(12);
         }catch (NoteInvalideException e){
             e.getMessage();
         }
