@@ -1,4 +1,4 @@
-package collection;
+package collection.Exercise1;
 
 public class Produit {
     private Long id;
