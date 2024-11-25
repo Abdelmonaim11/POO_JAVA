@@ -1,4 +1,4 @@
-module com.example.tp_javafx {
+module com.enset.tp_javafx {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.tp_javafx {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.tp_javafx to javafx.fxml;
-    exports com.example.tp_javafx;
+    opens com.enset.tp_javafx to javafx.fxml;
+    exports com.enset.tp_javafx;
 }
