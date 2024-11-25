@@ -1,6 +1,8 @@
 package com.enset.entities;
 
-public class Departement {
+import java.io.Serializable;
+
+public class Departement implements Serializable {
     private int id_depart;
     private String nom;
 

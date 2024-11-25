@@ -1,8 +1,9 @@
 package com.enset.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Professeur {
+public class Professeur implements Serializable {
     private int id_prof;
     private String nom, prenom, cin, adresse,telephon,email;
     private Date date_recrutement;
