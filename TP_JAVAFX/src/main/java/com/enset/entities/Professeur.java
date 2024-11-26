@@ -7,6 +7,7 @@ public class Professeur implements Serializable {
     private int id_prof;
     private String nom, prenom, cin, adresse,telephon,email;
     private Date date_recrutement;
+    private Departement departement;
 
     public Professeur(int id_prof, String nom, String prenom, String cin, String adresse, String telephon, String email, Date date_recrutement) {
         this.id_prof = id_prof;
