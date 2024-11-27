@@ -30,8 +30,8 @@ public class ProfesseurTest {
 //        Professeur professeur1 = new Professeur(3, "Amine", "Mohamed", "PA124875", "TINGHIR CENTRE", "0623435028","amine08@gmail.com", java.sql.Date.valueOf("2023-04-11"));
 //        professeurDao.update(professeur1);
 //        professeurDao.delete(3);
-        professeurDao.affecterADepartement(1,1);
-        professeurDao.affecterADepartement(2,2);
+//        professeurDao.affecterADepartement(1,1);
+//        professeurDao.affecterADepartement(2,2);
     }
 
 
