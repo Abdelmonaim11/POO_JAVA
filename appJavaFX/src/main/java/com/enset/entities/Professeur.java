@@ -86,4 +86,19 @@ public class Professeur implements Serializable {
     public void setDate_recrutement(Date date_recrutement) {
         this.date_recrutement = date_recrutement;
     }
+
+    @Override
+    public String toString() {
+        return "Professeur{" +
+                "id_prof=" + id_prof +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", cin='" + cin + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", telephon='" + telephon + '\'' +
+                ", email='" + email + '\'' +
+                ", date_recrutement=" + date_recrutement +
+                ", departement=" + departement +
+                '}';
+    }
 }

@@ -4,6 +4,7 @@ import com.enset.entities.Departement;
 import com.enset.entities.Professeur;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -63,12 +64,48 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
 
     @Override
     public Professeur findById(int id) {
-        return null;
+        Professeur professeur=null;
+        try {
+            Connection connection = SingletonConnection.getConnection();
+            PreparedStatement stm = connection.prepareStatement("select * from professeur where id_prof= ?");
+            stm.setInt(1,id);
+            ResultSet resultSet = stm.executeQuery();
+
+            while (resultSet.next()){
+                 professeur = new Professeur(resultSet.getInt("id_prof"), resultSet.getString("nom"),
+                        resultSet.getString("prenom"),
+                         resultSet.getString("cin"),
+                        resultSet.getString("adresse"),
+
+                        resultSet.getString("telephon"),
+                        resultSet.getString("email"),
+                        resultSet.getDate("date_recrutement")
+                        );
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return professeur;
     }
 
     @Override
     public void save(Professeur professeur) {
-
+        try {
+            Connection connection = SingletonConnection.getConnection();
+            PreparedStatement stm = connection.prepareStatement("insert into professeur values (?,?,?,?,?,?,?,?)");
+            stm.setInt(1,professeur.getId_prof());
+            stm.setString(2,professeur.getNom());
+            stm.setString(3,professeur.getPrenom());
+            stm.setString(4,professeur.getCin());
+            stm.setString(5,professeur.getAdresse());
+            stm.setString(6,professeur.getTelephon());
+            stm.setString(7,professeur.getEmail());
+            stm.setDate(8, new java.sql.Date(professeur.getDate_recrutement().getTime()));
+            stm.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
