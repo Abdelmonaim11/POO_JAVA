@@ -5,9 +5,10 @@ import java.sql.DriverManager;
 
 public class SingletonConnection {
     private static Connection connection;
+
     static {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/etablissement", "root", "");
         }catch (Exception e){
             e.printStackTrace();
@@ -15,12 +16,5 @@ public class SingletonConnection {
     }
     public static Connection getConnection(){
         return connection;
-    }
-    public static void closeConnection(){
-        try {
-            connection.close();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
     }
 }

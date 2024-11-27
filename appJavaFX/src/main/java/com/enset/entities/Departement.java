@@ -2,7 +2,6 @@ package com.enset.entities;
 
 import java.io.Serializable;
 import java.util.List;
-
 public class Departement implements Serializable {
     private int id_depart;
     private String nom;
