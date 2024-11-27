@@ -93,7 +93,7 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
     public void save(Professeur professeur) {
         try {
             Connection connection = SingletonConnection.getConnection();
-            PreparedStatement stm = connection.prepareStatement("insert into professeur values (?,?,?,?,?,?,?,?)");
+            PreparedStatement stm = connection.prepareStatement("insert into professeur(id_prof,nom,prenom,cin,adresse,telephon,email,date_recrutement) values (?,?,?,?,?,?,?,?)");
             stm.setInt(1,professeur.getId_prof());
             stm.setString(2,professeur.getNom());
             stm.setString(3,professeur.getPrenom());
@@ -109,17 +109,46 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
     }
 
     @Override
-    public Professeur delete(int id) {
-        return null;
+    public void delete(int id) {
+        try {
+            Connection connection = SingletonConnection.getConnection();
+            PreparedStatement stm = connection.prepareStatement("delete from professeur where id_prof = ?");
+            stm.setInt(1,id);
+            stm.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
-    public void update(int id) {
-
+    public void update(Professeur professeur) {
+        try {
+            Connection connection = SingletonConnection.getConnection();
+            PreparedStatement stm = connection.prepareStatement("UPDATE professeur SET nom = ?,prenom = ?,cin=?,adresse=?, telephon=?, email=?, date_recrutement = ? WHERE id_prof = ?");
+            stm.setString(1,professeur.getNom());
+            stm.setString(2,professeur.getPrenom());
+            stm.setString(3,professeur.getCin());
+            stm.setString(4,professeur.getAdresse());
+            stm.setString(5,professeur.getTelephon());
+            stm.setString(6,professeur.getEmail());
+            stm.setDate(7, new java.sql.Date(professeur.getDate_recrutement().getTime()));
+            stm.setInt(8, professeur.getId_prof());
+            stm.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void affecterADepartement(int id_prof, int id_depart) {
-
+       try {
+           Connection connection = SingletonConnection.getConnection();
+           PreparedStatement stm = connection.prepareStatement("UPDATE professeur SET id_depart = ? WHERE id_prof = ?");
+           stm.setInt(1,id_depart);
+           stm.setInt(2,id_prof);
+           stm.executeUpdate();
+       }catch (Exception e){
+           e.printStackTrace();
+       }
     }
 }

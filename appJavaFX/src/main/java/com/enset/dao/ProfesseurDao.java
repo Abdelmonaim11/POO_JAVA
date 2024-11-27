@@ -9,7 +9,7 @@ public interface ProfesseurDao{
     List<Professeur> findByKeyWord(String keyword);
     Professeur findById(int id);
     void save(Professeur professeur);
-    Professeur delete(int id);
-    void update(int id);
+    void delete(int id);
+    void update(Professeur professeur);
     void affecterADepartement(int id_prof, int id_depart);
 }

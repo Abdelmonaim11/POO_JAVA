@@ -23,6 +23,14 @@ public class Professeur implements Serializable {
     public Professeur() {
     }
 
+    public Departement getDepartement() {
+        return departement;
+    }
+
+    public void setDepartement(Departement departement) {
+        this.departement = departement;
+    }
+
     public int getId_prof() {
         return id_prof;
     }
@@ -98,7 +106,6 @@ public class Professeur implements Serializable {
                 ", telephon='" + telephon + '\'' +
                 ", email='" + email + '\'' +
                 ", date_recrutement=" + date_recrutement +
-                ", departement=" + departement +
                 '}';
     }
 }
