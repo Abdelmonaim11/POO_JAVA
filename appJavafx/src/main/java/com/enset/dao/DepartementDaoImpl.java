@@ -1,6 +1,8 @@
 package com.enset.dao;
 
-import com.enset.tp5appjavafx.entities.Departement;
+
+
+import com.enset.entities.Departement;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

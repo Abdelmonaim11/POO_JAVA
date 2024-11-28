@@ -1,6 +1,8 @@
 package com.enset.dao;
 
-import com.enset.tp5appjavafx.entities.Professeur;
+
+
+import com.enset.entities.Professeur;
 
 import java.sql.Connection;
 import java.sql.Date;
