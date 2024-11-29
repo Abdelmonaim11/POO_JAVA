@@ -1,7 +1,7 @@
 package com.enset.dao;
 
 
-
+import com.enset.entities.Professeur;
 
 public class ProfesseurTest {
     public static void main(String[] args) {
@@ -28,9 +28,9 @@ public class ProfesseurTest {
 //        professeurDao.delete(3);
 //        professeurDao.affecterADepartement(1,1);
 //        professeurDao.affecterADepartement(2,2);
-//                Professeur professeur2 = new Professeur(3, "Ahdoud", "Monaim", "XY52413", "Morocco", "0723193273","monaim01@gmail.com", java.sql.Date.valueOf("2022-09-24"));
+//                Professeur professeur2 = new Professeur(4, "Ouhenssous", "Ayoub", "LT52413", "Morocco, Oued Zem", "0723142121","ayoub.01@gmail.com", java.sql.Date.valueOf("2012-09-24"));
 //        professeurDao.save(professeur2);
-//        professeurDao.affecterADepartement(3, 1);
+//        professeurDao.affecterADepartement(4, 4);
     }
 
 

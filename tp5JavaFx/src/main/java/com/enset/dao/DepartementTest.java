@@ -17,7 +17,7 @@ public class DepartementTest {
 //            System.out.println(departement.getId_depart());
 //            System.out.println(departement.getNom());
 //        });
-        Departement departement = new Departement(3, "Langue et communication");
+        Departement departement = new Departement(4, "Electrique et electronique");
         departementDao.save(departement);
     }
 }
