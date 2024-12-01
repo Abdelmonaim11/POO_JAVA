@@ -84,3 +84,27 @@ The class integrates the use of ProfesseurDaoImpl and DepartementDaoImpl for dat
   -> Displays the application window (Stage) with the title "University Management".
 
 ## ScreenShoots
+![image](https://github.com/user-attachments/assets/3934a847-aa81-49c7-91fe-83a4a5fdaaaa)
+
+![image](https://github.com/user-attachments/assets/b3ebeff3-7ae7-400f-be1b-4d40abe04496)
+
+![image](https://github.com/user-attachments/assets/72c679b6-7472-46c6-a1e1-bbc7a26a8fd1)
+
+![image](https://github.com/user-attachments/assets/b41b9949-a6e5-4ebf-9da6-0e20f945cd90)
+
+![image](https://github.com/user-attachments/assets/a526e2ef-0bd7-4baf-beba-558d8734745e)
+
+![image](https://github.com/user-attachments/assets/e2322f74-2123-471d-ae58-a59815c1f96e)
+
+![image](https://github.com/user-attachments/assets/f3b82534-8138-4286-8c5f-1053a1d44f1e)
+
+![image](https://github.com/user-attachments/assets/5e39c7a7-5db0-40c8-b587-96ad7a7fe4d7)
+
+![image](https://github.com/user-attachments/assets/2362a9cc-f2c2-4d1e-9220-402badcaf0a5)
+
+![image](https://github.com/user-attachments/assets/eb9d09d6-a752-4428-bb18-3e4f7251807a)
+
+![image](https://github.com/user-attachments/assets/fc26b309-84be-4541-8d0a-64230720ba8a)
+
+![image](https://github.com/user-attachments/assets/fec7dba3-4295-4fb1-8de7-e2a62c9368de)
+
