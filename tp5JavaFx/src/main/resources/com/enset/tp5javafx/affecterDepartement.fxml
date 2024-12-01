@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="344.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enset.controller.AffecterDepartementController">
    <children>
-      <ComboBox fx:id="departementsIDAffecter" layoutX="30.0" layoutY="67.0" prefHeight="27.0" prefWidth="267.0" />
+      <ComboBox fx:id="departementsIDAffecter" layoutX="30.0" layoutY="67.0" prefHeight="27.0" prefWidth="267.0" promptText="Selectionner une Departement" />
       <Text layoutX="30.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Departements">
          <font>
             <Font size="13.0" />
