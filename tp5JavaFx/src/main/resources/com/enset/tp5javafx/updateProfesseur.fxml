@@ -11,37 +11,68 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.enset.controller.UpdateProfesseurController">
+<VBox alignment="CENTER" prefHeight="452.0" prefWidth="625.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.enset.controller.UpdateProfesseurController">
 
     <padding>
         <Insets bottom="20" left="20" right="20" top="20" />
     </padding>
+   <Text fill="#2706e0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modification Des Informations Des Professeurs" wrappingWidth="412.00270080566406">
+      <font>
+         <Font name="Arial Rounded MT Bold" size="18.0" />
+      </font>
+   </Text>
 
     <GridPane hgap="10" vgap="10">
-        <Label text="ID_Prof:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="ID_Prof:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="idProfUpdate" disable="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
 
-        <Label text="Nom:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label text="Nom:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="nomProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-        <Label text="Prenom:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Label text="Prenom:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="prenomProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 
-        <Label text="CIN:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Label text="CIN:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="cinProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 
-        <Label text="Adresse:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Label text="Adresse:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextArea fx:id="adresseProfUpdate" prefRowCount="3" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
 
-        <Label text="Telephon:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Label text="Telephon:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="telephonProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
-        <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <Label text="Email:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
         <TextField fx:id="emailProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="6" />
 
-        <Label text="Recruitment Date:" GridPane.columnIndex="0" GridPane.rowIndex="7" />
-        <DatePicker fx:id="dateProfUpdate" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <Label prefHeight="17.0" prefWidth="155.0" text="Date de Recrutement:" textFill="#2706e0" GridPane.columnIndex="0" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <DatePicker fx:id="dateProfUpdate" prefHeight="25.0" prefWidth="228.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
       <columnConstraints>
          <ColumnConstraints />
          <ColumnConstraints />
@@ -59,7 +90,13 @@
     </GridPane>
 
     <HBox alignment="CENTER" spacing="10">
-        <Button onAction="#updateProfesseur" styleClass="button-primary" text="Update" />
-        <Button fx:id="cancelButton" onAction="#cancelUpdateProfesseur" styleClass="button-secondary" text="Cancel" />
+        <Button id="blueMonaim" onAction="#updateProfesseur" styleClass="button-primary" stylesheets="@stylesheet.css" text="Modifier">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Button id="blackMonaim" fx:id="cancelButton" onAction="#cancelUpdateProfesseur" styleClass="button-secondary" stylesheets="@stylesheet.css" text="Annuler">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
     </HBox>
 </VBox>
