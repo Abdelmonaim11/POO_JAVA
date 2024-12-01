@@ -7,7 +7,7 @@ public class Professeur implements Serializable {
     private int id_prof;
     private String nom, prenom, cin, adresse,telephon,email;
     private Date date_recrutement;
-    private Departement departement;
+    private int id_depart;
 
     public Professeur(int id_prof, String nom, String prenom, String cin, String adresse, String telephon, String email, Date date_recrutement) {
         this.id_prof = id_prof;
@@ -23,12 +23,12 @@ public class Professeur implements Serializable {
     public Professeur() {
     }
 
-    public Departement getDepartement() {
-        return departement;
+    public int getId_depart() {
+        return id_depart;
     }
 
-    public void setDepartement(Departement departement) {
-        this.departement = departement;
+    public void setId_depart(int id_depart) {
+        this.id_depart = id_depart;
     }
 
     public int getId_prof() {

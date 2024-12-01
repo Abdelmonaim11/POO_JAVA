@@ -28,6 +28,7 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
                         res.getString("email"),
                         res.getDate("date_recrutement")
                         );
+                professeur.setId_depart(res.getInt("id_depart"));
                 professeurList.add(professeur);
             }
         }catch (Exception e){
@@ -54,6 +55,7 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
                         res.getString("email"),
                         res.getDate("date_recrutement")
                 );
+                professeur.setId_depart(res.getInt("id_depart"));
                 professeurList.add(professeur);
             }
         }catch (Exception e){
@@ -81,6 +83,7 @@ public class ProfesseurDaoImpl implements ProfesseurDao{
                         resultSet.getString("email"),
                         resultSet.getDate("date_recrutement")
                         );
+                 professeur.setId_depart(resultSet.getInt("id_depart"));
             }
 
         }catch (Exception e){

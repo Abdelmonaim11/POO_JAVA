@@ -66,7 +66,7 @@ public class DepartementDaoImpl implements DepartementDao{
     public void delete(int id) {
         try {
             Connection connection = SingletonConnection.getConnection();
-            PreparedStatement stm = connection.prepareStatement("select * from departement where id_depart = ?");
+            PreparedStatement stm = connection.prepareStatement("delete from departement where id_depart = ?");
             stm.setInt(1, id);
             stm.executeUpdate();
         }catch (Exception e){
@@ -78,7 +78,7 @@ public class DepartementDaoImpl implements DepartementDao{
     public void update(Departement departement) {
         try{
             Connection connection = SingletonConnection.getConnection();
-            PreparedStatement stm = connection.prepareStatement("update departement set name=? where id_depart=?");
+            PreparedStatement stm = connection.prepareStatement("update departement set nom=? where id_depart=?");
             stm.setString(1, departement.getNom());
             stm.setInt(2, departement.getId_depart());
             stm.executeUpdate();
