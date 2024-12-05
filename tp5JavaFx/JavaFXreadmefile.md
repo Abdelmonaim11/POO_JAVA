@@ -9,6 +9,9 @@ This JavaFX application is designed to manage professors and departments in an e
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30" height="30"/> &nbsp;&nbsp;**Git**
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30" height="30"/> &nbsp;&nbsp;**GitHub**
 - <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/JavaFX_Logo.png" width="30" height="30"/> &nbsp;&nbsp;**JavaFX**
+## Class Diagramme
+![image](https://github.com/user-attachments/assets/5d72bd4c-22f2-4067-9bf3-757bf633b449)
+The class diagram illustrates a relationship between two entities: Professeur and Departement. Each Professeur has attributes such as id_prof, nom, prenom, cin, adresse, telephon, email, and date_recrutement, representing personal and professional details. The Departement entity includes id_depart and nom as attributes, identifying its unique ID and name. The relationship between the two entities is a one-to-many association. A Professeur is strictly associated with one and only one Departement (multiplicity 1..1), while a Departement can have one or multiple Professeurs (multiplicity 1..*). This structure models a hierarchical system where professors are grouped under specific departments.
 ## Project structure
 ### Entities Layer
 #### Professeur Entity Description
