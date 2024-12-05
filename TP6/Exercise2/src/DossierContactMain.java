@@ -12,5 +12,6 @@ public class DossierContactMain {
 //        dossierContact.addContact();
         //dossierContact.deleteContact("Monaim");
       //  dossierContact.searchContact("Amine");
+        dossierContact.updatePhoneNumber("Mouad", "07342342212");
     }
 }

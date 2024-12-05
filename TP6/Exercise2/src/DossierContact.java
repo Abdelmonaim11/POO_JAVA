@@ -62,4 +62,14 @@ public class DossierContact {
             fileReader.close();
         }
     }
+    public void updatePhoneNumber(String contactName, String newPhoneNumber) throws IOException {
+        File file = new File(dir+"\\"+contactName);
+        if (file.exists()){
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.write(newPhoneNumber);
+            fileWriter.close();
+        }else {
+            System.out.println("File deosn't exists!!!");
+        }
+    }
 }
