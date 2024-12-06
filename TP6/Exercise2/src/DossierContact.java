@@ -23,21 +23,22 @@ public class DossierContact {
         this.phoneNumbersList = phoneNumbersList;
     }
 
-    public void addContact(){
-        for (int i=0; i< namesList.size(); i++){
-            File file = new File(dir+"\\"+namesList.get(i));
+    public void addContact(String name, String phoneNumber){
+        namesList.add(name); phoneNumbersList.add(phoneNumber);
+
+            File file = new File(dir+"\\"+name);
             try {
                 if (file.createNewFile()){
                     FileWriter fileWriter = new FileWriter(file);
-                    fileWriter.write(phoneNumbersList.get(i));
+                    fileWriter.write(phoneNumber);
                     fileWriter.close();
                 }else {
-                    System.out.println("The contact with name "+namesList.get(i)+"is already exists!!!");
+                    System.out.println("The contact with name "+name+"is already exists!!!");
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-        }
+
     }
     public void deleteContact(String name){
         File file = new File(dir+"\\"+name);
