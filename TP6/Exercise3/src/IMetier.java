@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.List;
 
 public interface IMetier <T>{
@@ -5,5 +6,5 @@ public interface IMetier <T>{
     public List<T> getAll();
     public T findByName(String name);
     public void delete(String name);
-    public void saveAll();
+    public void saveAll() throws IOException;
 }

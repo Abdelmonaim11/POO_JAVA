@@ -1,18 +1,19 @@
 import java.util.List;
 
-public class MetierClientImpl implements IMetier{
+public class MetierClientImpl implements IMetier<Client>{
+
     @Override
-    public Object add(Object o) {
+    public Client add(Client o) {
         return null;
     }
 
     @Override
-    public List getAll() {
+    public List<Client> getAll() {
         return null;
     }
 
     @Override
-    public Object findByName(String name) {
+    public Client findByName(String name) {
         return null;
     }
 
