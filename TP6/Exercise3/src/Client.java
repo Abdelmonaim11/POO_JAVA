@@ -1,6 +1,7 @@
 import java.io.Serializable;
 
 public class Client implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String nom, prénom, adresse, tel, email;
 
     public Client(String nom, String prénom, String adresse, String tel, String email) {
@@ -52,5 +53,16 @@ public class Client implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "nom='" + nom + '\'' +
+                ", prénom='" + prénom + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
